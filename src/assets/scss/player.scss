@@ -1,0 +1,16 @@
+.player {
+  width: 100%;
+  max-width:280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border:1px solid #000;
+  border-radius: 20px;
+  margin: 5px;
+
+  &__avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
